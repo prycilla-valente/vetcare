@@ -1,0 +1,176 @@
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 6rem 5rem;
+    margin: 2rem;
+    gap: 10rem;
+    margin-top: 5rem;
+    width: 100%;
+  
+}
+
+.hero-content {
+    text-align: justify;
+    gap: 5.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content h1 {
+    max-width: 65rem;
+}
+
+.hero-description {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    max-width: 65rem;
+}
+
+.hero-services {
+    text-align: center;
+    
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 55.4rem;
+    max-height: 62.0rem;
+    object-fit: contain;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+    width: 100% ;
+    margin-top: 2rem;
+  
+   
+}
+
+.botoes .btn-1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 1.3rem;
+    min-height: 5.2rem; /* Garante uma altura mínima para o botão */
+    border: solid 1px #00423D;
+    border-radius: 0.8rem;
+    font-family: roboto, sans-serif;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+    color: #00423D;
+}
+
+.botoes .btn-2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 1.3rem;
+    border: solid 1px #00423D;
+    border-radius: 0.8rem;
+    font-family: roboto, sans-serif;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+    color: #00423D;
+    background-color: #00423D;
+    color: #ffffff;
+
+}
+
+.botoes .btn-1:hover {
+    background-color: #8F9642;
+    color: #00423D;
+    font-weight: bold;
+
+}
+
+.botoes .btn-2:hover {
+    background-color: rgb(0, 66, 61, 0.83);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.botoes a img {
+    display: block;
+    flex-shrink: 0;
+    width: 1.8rem;
+    height: 1.8rem;
+    object-fit: contain;
+}
+
+.sobre-nos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    gap: 3rem;
+    
+}
+
+.texto-sobre-nos h2 {
+    font-size: 3.6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.texto-sobre-nos p {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+    padding: 0 5rem;
+    margin: 2rem;
+}
+
+.estrutura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:8rem 2rem 2rem;
+    gap: 6rem;
+    
+}
+
+.estrutura h2 {
+    font-size: 3.6rem;
+    line-height: 4.5rem;
+    text-align: center;
+}
+
+.estrutura-texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 5.8rem;
+    font-size: 2.1rem;
+    line-height: 4.5rem;
+    padding: 0 5rem;
+    margin: 2rem;
+
+}
