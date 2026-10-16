@@ -1,0 +1,78 @@
+
+.veterinarios h2 {
+    font-size: 3.6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+}
+
+.veterinarios p {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.5;
+    color: #00423D;
+    margin-bottom: 3rem;
+    padding: 0 5rem;
+}
+
+.veterinarios-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que os cards de serviço quebrem para a próxima linha se necessário */
+    justify-content: center; 
+    padding: 2rem 3rem;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    max-width: 140rem;
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura e altura totais */
+    gap: 2rem; /* Espaço entre os cards de serviço */
+
+}
+
+.card-veterinarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; /* Centraliza o texto dentro do card */
+  gap: 0.5rem; /* Espaço entre os itens dentro do card */
+  padding: 1rem; /* Espaço interno do card */
+  width: calc((100% - 6rem) / 4);
+
+    
+}
+
+.card-veterinarios p {
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: #00423D;
+    margin: 1rem;
+    min-height: 4rem; /* Altura mínima do parágrafo */
+        
+}
+
+.card-veterinarios a {
+    font-size: 1.6rem;
+    color: #CC5733;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.card-veterinarios a:hover {
+    color: #CC5733;
+    font-weight: bold;
+}
+
+.card-veterinarios-img {
+    width: 27.7rem;
+    height: 30.8rem;
+    transition: transform 0.3s ease;
+}
+.card-veterinarios-img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
