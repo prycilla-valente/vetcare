@@ -1,0 +1,156 @@
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: auto;
+    padding: 6rem 5rem;
+    gap: 10rem;
+    width: 100%;
+    box-sizing: border-box; /* Inclui padding e border na largura e altura do elemento */
+  
+}
+
+.contato-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    gap: 1.9rem;
+    flex: 1; /* Permite que o conteúdo do contato ocupe o espaço disponível */
+    min-width: 0; /* Permite que o conteúdo do contato encolha corretamente */
+}
+
+.contato-content h2 {
+    width: 100%;
+    max-width: 55rem;
+    font-size: 3.6rem;
+    text-align: center;
+    margin: 0;
+
+}
+
+.contato-description {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    max-width: 55rem;
+    text-align: justify;
+}
+
+.contato-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.localização {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2.5rem;
+    width: 100%;
+}
+
+.localização h3 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin: 0;
+}
+
+.localização p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+}
+.map {
+    position: relative; /* Permite posicionamento absoluto de elementos filhos */
+    width: 100%;
+    max-width: 45rem /* Define a largura máxima do mapa */
+}
+.map img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.map address {
+    position: absolute; /* Permite posicionamento absoluto dentro do contêiner do mapa */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para o centro exato */
+    width: 90%; /* Define a largura do endereço dentro do mapa */
+    text-align: center; /* Centraliza o texto dentro do endereço */
+    padding: 1rem; /* Adiciona espaçamento interno ao redor do endereço */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura e altura do elemento */
+    font-size: 1.6rem; 
+    line-height: 2.4rem;    
+    font-family: roboto, sans-serif; 
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100% ;
+    margin-top: 0;
+     
+}
+
+.botoes .btn-1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 1.3rem;
+    min-height: 5.2rem; /* Garante uma altura mínima para o botão */
+    border: solid 1px #00423D;
+    border-radius: 0.8rem;
+    font-family: roboto, sans-serif;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+    color: #00423D;
+}
+
+
+.botoes .btn-1:hover {
+    background-color: #8F9642;
+    color: #00423D;
+    font-weight: bold;
+
+}
+
+.botoes a img {
+    display: block;
+    flex-shrink: 0;
+    width: 1.8rem;
+    height: 1.8rem;
+    object-fit: contain;
+}
+
+p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0;
+}
+
+.imagem-pets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 4rem;
+}
+
+.imagem-pets img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
