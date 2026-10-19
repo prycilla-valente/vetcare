@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetCare | Cuidado de qualidade para seu pet</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/agendamento.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="../index.html"><img src="../assets/img/logo.vetcare.png" alt="VetCare Logo"></a>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../pages/servicos.html">Serviços</a></li>
+                <li><a href="../pages/veterinarios.html">Veterinários</a></li>
+                <li><a href="../pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="agendamento-section">
+
+
+            <div class="voltar-container">
+                <a href="../pages/servicos.html" class="voltar"><img src="../assets/icons/seta-esquerda-verde.png"
+                    alt="Seta para voltar a esquerda">Voltar
+                </a>
+            </div>
+
+            <div class="agendamento-container">
+
+
+                <div class="agendamento-header">
+                    <h2>Agendamento</h2>
+                    <p>Faça seu agendamento de forma rápida e prática.</p>
+                </div>
+
+
+                <form class="agendamento-form" action="#" method="get">
+
+                    <div class="input-group">
+
+                        <label class="sr-only" for="nome">Nome do tutor</label>
+                        <input type="text" id="nome" name="nome" placeholder="Nome do tutor" required>
+
+                    </div>
+
+                    <div class="input-group">
+                        <label class="sr-only" for="tel">Telefone / WhatsApp</label>
+                        <input type="text" id="tel" name="tel" placeholder="Telefone / WhatsApp" required>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <label class="sr-only" for="especie_pet">Espécie do pet</label>
+                        <select id="especie_pet" name="especie_pet" required>
+                            <option value="" disabled selected>Espécie do pet</option>
+                            <option value="cachorro">Cachorro</option>
+                            <option value="gato">Gato</option>
+                            <option value="outro">Outro</option>
+                        </select>
+
+                    </div>
+
+                    <div class="input-group">
+                        
+                        <label class="sr-only" for="servico">Serviço desejado</label>
+                        <select id="servico" name="servico" required>
+                            <option value="" disabled selected>Serviço desejado</option>
+                            <option value="consulta-clinica">Consulta Clínica</option>
+                            <option value="cirurgia">Cirurgia</option>
+                            <option value="exames">Exames</option>
+                            <option value="vacina">Vacina</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label class="sr-only" for="date">Data</label>
+                        <input type="date" name="date" id="date" placeholder="Selecione a data" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label class="sr-only" for="time">Horário</label>
+
+                        <input type="time" name="time" id="time" placeholder="Selecione o horário" required>
+                    </div>
+
+                    <div class="agendamento-acoes">
+                        <button type="submit">ENTRAR</button>
+                    </div>
+                    
+                </form>
+
+            </div>
+
+
+
+            </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 VetCare. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
