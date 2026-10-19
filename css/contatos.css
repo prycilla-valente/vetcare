@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     min-height: auto;
-    padding: 6rem 5rem;
+    padding: 6rem 8rem;
     gap: 10rem;
     width: 100%;
     box-sizing: border-box; /* Inclui padding e border na largura e altura do elemento */
