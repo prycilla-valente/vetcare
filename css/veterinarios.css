@@ -76,3 +76,73 @@
     transition: transform 0.3s ease;
 }
 
+/* Responsividade tablet */
+
+@media (max-width: 768px) {
+    .veterinarios h2 {
+        font-size: 3.2rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .veterinarios p {
+        font-size: 1.6rem;
+        padding: 0 3rem;
+        margin-bottom: 2rem;
+        text-align: justify;
+    }
+
+    .veterinarios-card {
+        padding: 2rem 3rem;
+        gap: 2rem;
+    }
+
+    
+    .card-veterinarios {
+        width: calc((100% - 2rem) / 2); /* 2 cards por linha */
+        padding: 0;
+    }
+
+    .card-veterinarios-img {
+        width: 100%;
+        max-width: 24rem;
+        height: auto;
+    }
+
+    .card-veterinarios p {
+        padding: 0;
+        margin: 0.5rem 0;
+        min-height: auto;
+        text-align: justify;
+
+    }
+}
+
+/* Responsividade mobile */
+
+@media (max-width: 480px) {
+    .veterinarios h2 {
+        font-size: 2.6rem;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .veterinarios p {
+        font-size: 1.5rem;
+        padding: 0 2rem;
+        text-align: justify;
+    }
+
+    .veterinarios-card {
+        padding: 1.5rem 2rem;
+        gap: 3rem;
+    }
+
+    .card-veterinarios {
+        width: 100%;  /* 1 card por linha */
+    }
+
+    .card-veterinarios-img {
+        max-width: 27.7rem;
+    }
+}

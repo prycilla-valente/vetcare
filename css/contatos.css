@@ -154,3 +154,108 @@ p {
     max-width: 100%;
     height: auto;
 }
+
+/* Responsividade tablet */
+
+@media (max-width: 768px) {
+    .contato {
+        flex-direction: column;
+        padding: 4rem 3rem;
+        gap: 3rem;
+    }
+
+    .contato-content {
+        width: 100%;
+        gap: 1.5rem;
+    }
+
+    .contato-content h2 {
+        font-size: 3.2rem;
+        max-width: 100%;
+    }
+
+    .contato-description {
+        font-size: 1.8rem;
+        line-height: 3rem;
+        max-width: 100%;
+    }
+
+    .contato-image {
+        width: 100%;
+    }
+
+    .localização {
+        gap: 2rem;
+    }
+
+    .localização h3 {
+        font-size: 2rem;
+    }
+
+    .map {
+        max-width: 40rem;
+    }
+
+    .imagem-pets img {
+        margin-bottom: 0.5rem;
+        width: 75rem;
+
+
+    }
+}
+
+/* Responsividade mobile */
+@media (max-width: 480px) {
+    .contato {
+        padding: 2.5rem 2rem;
+        gap: 2.5rem;
+    }
+
+    .contato-content h2 {
+        font-size: 2.6rem;
+    }
+
+    .contato-description {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        text-align: justify;
+    }
+
+    .localização h3 {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+
+    .localização p {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    .map {
+        max-width: 100%;
+    }
+
+    .map address {
+        width: 85%;
+        padding: 0.5rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .botoes {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .botoes .btn-1 {
+        width: 100%;
+        max-width: 32rem;
+    }
+
+    .imagem-pets img {
+        margin-bottom: 0.5rem;
+        width: 60rem; 
+        height: 20rem;
+
+    }
+}

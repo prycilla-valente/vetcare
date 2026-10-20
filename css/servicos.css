@@ -164,3 +164,150 @@
     font-weight: bold;
 
 }
+
+
+/* Responsividade tablet */
+
+@media (max-width: 768px) {
+    .services h2 {
+        font-size: 3.2rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .services-card {
+        flex-wrap: wrap;
+        padding: 2rem 3rem;
+        gap: 2rem;
+    }
+
+    .card-service-img {
+        width: 22rem;
+        height: auto;
+    }
+
+    .detalhes-servico {
+        padding: 2rem 3rem;
+    }
+
+    .detalhes-servico h2 {
+        font-size: 3.2rem;
+        line-height: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .servico-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+
+    .servico-texto {
+        width: 100%;
+    }
+
+    .servico-description {
+        font-size: 1.8rem;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .servico-content img {
+        max-width: 40rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .descricao-servico {
+        margin-top: 2rem;
+    }
+
+  .botoes {
+        flex-direction: column;
+        gap: 1.4rem;
+        margin-top: 1rem;
+    }
+
+    .botoes .btn-1{
+        width: 100%;
+        max-width: 32rem;
+    }
+}
+
+/* Responsividade mobile */
+
+@media (max-width: 480px) {
+    .services h2 {
+        font-size: 2.6rem;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .services-card {
+        flex-direction: column;
+        padding: 1.5rem 2rem;
+        gap: 3rem;
+    }
+
+    .card-service {
+        padding: 0;
+    }
+
+    .card-service-img {
+        width: 100%;
+        max-width: 27.7rem;
+        height: auto;
+    }
+
+    .card-service p {
+        min-height: auto;
+        margin: 0.5rem 0;
+    }
+
+    .detalhes-servico {
+        padding: 1.5rem 2rem;
+    }
+
+    .detalhes-servico h2 {
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+
+    .servico-content {
+        gap: 2rem;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+
+    .servico-description {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        text-align: justify;
+        margin-bottom: 1.5rem;
+    }
+
+    .descricao-servico-lista {
+        width: 100%;
+        padding-left: 2rem;
+        text-align: left;
+    }
+
+.botoes {
+        flex-direction: column;
+        gap: 1.4rem;
+        margin-top: 1rem;
+    }
+
+    .botoes .btn-1{
+        width: 100%;
+        max-width: 32rem;
+    }
+
+    .botoes .btn-1 img {
+        width: 1.8rem;
+        height: 1.8rem;
+        object-fit: contain;
+    }
+}

@@ -20,14 +20,23 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 4rem;
 }
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
     line-height: 1.6;
     color: #00423D;
-   
-   
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+main {
+    flex: 1;
+}
+   
+
 
 a {
     color: inherit;
@@ -111,3 +120,55 @@ footer {
     font-size: 1.6rem;
     line-height: auto;
 }
+
+/* Responsividade tablet */
+
+@media (max-width: 768px) {
+   header {
+        flex-direction: column;
+        height: auto;
+        padding: 1.5rem 2rem;
+        gap: 1rem;
+    }
+
+    .logo img {
+        height: 10rem;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 0;
+    }
+
+    .navbar ul li {
+        margin: 0;
+    }
+
+    .navbar ul li a {
+        padding: 0.8rem 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    footer {
+        padding: 1.5rem 1rem;
+        font-size: 1.4rem;
+    }
+}
+
+/* Responsividade mobile */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    .navbar ul li a {
+        padding: 0.6rem 1rem;
+        font-size: 1.4rem;
+    }
+}
+    
